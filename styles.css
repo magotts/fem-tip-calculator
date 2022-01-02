@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  --strong-cyan: hsl(172, 67%, 45%);
+  --very-dark-cyan:hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(186, 14%, 43%);
+  --dark-grayish-cyan1: hsl(184, 14%, 56%);
+  --light-grayish-cyan:hsl(185, 41%, 84%);
+  --light-grayish-cyan1: hsl(189, 41%, 97%);
+
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
+  background-color: var(--light-grayish-cyan);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  flex-direction: column;
+}
+
+.box {
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 10%;
+  padding: 10px 40px 42px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tip {
+  background-color: var(--very-dark-cyan);
+  border-radius: 10%;
+  color: var(--strong-cyan);
+}
+
+.tipbox button {
+  color: white;
+  background-color: var(--very-dark-cyan);
+  border-radius: 10%;
+  padding: 5px 20px 5px 20px;
+}
+
+
+.tipbox li {
+  list-style: none;
+}
